@@ -1,0 +1,5 @@
+1、Zookeeper
+brew services start zookeeper
+
+2、Kafka
+brew services start kafka
