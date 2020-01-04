@@ -1,5 +1,16 @@
 1、Zookeeper
 brew services start zookeeper
 
+查看 ZK 的版本号：
+echo stat|nc localhost 2181
+
 2、Kafka
 brew services start kafka
+
+3、brew services
+  (1)brew services list
+  (2)brew services run (formula|--all)
+  (3)brew services start (formula|--all)
+  (4)brew services stop (formula|--all)
+  (5)brew services restart (formula|--all)
+  (6)brew services cleanup 
